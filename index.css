@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 10%;
+    height: auto;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+header{
+    background-color: rgb(72, 91, 103);
+    color: antiquewhite;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+   
+    padding: 10px;
+    margin-top: 5px;
+}
+main{
+    padding: 50px;
+}
+.section{
+   margin-bottom: 20px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-align: center;
+    color: rgb(10, 8, 4);
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(20.3% - 1px);
+    margin-bottom: 1px;
+    text-align: center;
+}
+.product h4{
+    justify-content: center;
+}
+.product img{
+    width: 300px;
+    height:260px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.product{
+      border-radius: 7px;
+      background-color: rgb(38, 31, 31);
+      height: 450px;
+}
+.product button{
+    background-color: orangered;
+    color: rgb(211, 214, 216);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 25%;
+}
+.section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top:20px ;
+}
+#email{
+    margin-left:79px ;
+}
+#message{
+    margin-left:68px ;
+}
+.section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 374px;
+}
+footer{
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    height: 500px;
+}
+@media screen and(max-width:768px){
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2-10px);
+        margin-bottom: 30px;
+    }
+   
+} 
+a{
+     text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#headsale {
+    background-color: rgb(59, 48, 48);
+    padding: 10px;
+}
+#headsale h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 164, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#headsale p{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+    color: rgb(106, 166, 204);
+}
+header{
+    background-color: rgb(72, 91, 103);
+    padding: 20px;
+}
+header p{
+    color: rgb(242, 242, 127);
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #fff;
+}
+.menu img{
+    width: 100px;
+    height: auto;
+}
+.menu li{
+    margin: auto;
+    list-style-type: none;
+    font-weight: bold;
+    padding: auto;
+}
+.menu #search{
+    margin-left: 200px;
+}
+#search input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: -60px;
+    margin-left:-20px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+#brick{
+    margin-left: -100px;
+}
+#brick:hover{
+    transition: box-shadow .4s, color .3s;
+    box-shadow: 0 3px tomato;
+}
+.menu .sub-menu{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.menu .sub-menu li{
+    list-style-type: none;
+    color: black;
+    margin-right: 50px;
+}
+.menu li:hover .sub-menu{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+.sub-menu #product a{
+    display: block;
+    text-decoration: none;
+}
+.menu .sub-menus{
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.menu .sub-menus li{
+    list-style-type: none;
+    color: black;
+    margin-right: 13px;
+    margin-left: 5px;
+}
+.menu li:hover .sub-menus{
+    background-color: white;
+    display: block;
+    padding: 2px;
+}
+.sub-menus #productx a{
+    display: block;
+    text-decoration: none;
+}
+
+.fix img{
+    padding-right: 40px;
+}
+#chu{
+    color:red;
+}
+#fixs{
+    color: #fff;
+}
+#fixs:hover{
+    color: red;
+}
+
+main img{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+main img:hover{
+    transform: scale(1.1);
+}
+h1{
+    transition: transform 0.3s;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+p{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
+section .product{
+    max-width: 500px;
+    overflow: hidden;
+}
+h4:hover{
+    color: orangered;
+}
+p{
+    transition: transform 0.3s;
+}
+p:hover{
+    transform: scale(1.1);
+}
+#nnn{
+    padding-left: 530px;
+    color: red;
+    font-size: 24px;
+}
+#product{
+    color: white;
+}
